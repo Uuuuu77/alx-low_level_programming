@@ -1,11 +1,10 @@
 #include <stdio.h>
-/*
- * main - print a line of code using puts
- *
- * return: 0
+/**
+ * main - A program that prints a line with puts function
+ * Return: 0 (success)
 */
-int main(void)
-{   
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+init main(void)
+{
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
 }
