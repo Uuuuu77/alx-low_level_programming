@@ -13,6 +13,6 @@ int main(void)
 	{
 		putchar("%c", alp[i]);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
