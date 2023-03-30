@@ -17,6 +17,5 @@ char *string_toupper(char *m)
 		}
 		m++;
 	}
-	m[b] = '\0';
 	return (m);
 }
