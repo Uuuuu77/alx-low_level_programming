@@ -30,7 +30,7 @@ int binary_recurse(int *array, size_t low, size_t high, int value)
 		if (mid == low || (array[mid - 1] != value))
 			return (mid);
 		else
-			return (binary_recurse(array, low, mid, value));
+			return (binary_recurse(array, low, mid - 1, value));
 	}
 	else if (array[mid] > value)
 		return (binary_recurse(array, low, mid - 1, value));
